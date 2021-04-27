@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/katya/CLionProjects/z3_1/main.cpp
+iostream
+-
+cstdlib
+-
+cstring
+-
+unistd.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+
